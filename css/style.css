@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.c-bg-orange {
+	background-color: #ff4928;
+}
+.c-bg-gray {
+	background-color: #7b7b7b;
+}
+.c-text-orange {
+	color: #ff4928;
+}
+.c-text-gray {
+	color: #7b7b7b;
+}
+* {
+	font-family: "Open Sans", sans-serif;
+}
+.c-bg-img {
+	background-image: url("../media/bg-img-min.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.c-hero-name {
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+	.c-hero-name {
+		font-size: 5rem;
+		font-weight: 800;
+	}
+	.c-sec4-px {
+		padding: 0 10rem;
+	}
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+	.c-hero-name {
+		font-size: 5rem;
+		font-weight: 800;
+	}
+	.c-sec4-px {
+		padding: 0 5rem;
+	}
+}
